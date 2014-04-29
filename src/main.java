@@ -129,6 +129,7 @@ public class main {
 				for (String s : retest) {
 					courses.add(finder(s));
 				}
+				retest.clear();
 			}
 
 			for (ArrayList<String> list : courses) {
